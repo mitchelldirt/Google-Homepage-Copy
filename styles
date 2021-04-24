@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+  font-size: small;
+  color: #222;
+  font-family: arial, sans-serif;
+}
+
+#top-page {
+  margin-top: 47px;
+  height: 233px;
+  margin-top: 89px;
+}
+
+#body, #footer {
+    display: block;
+}
