@@ -11,6 +11,16 @@ body {
   margin-top: 89px;
 }
 
-#body, #footer {
-    display: block;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.image-example {
+  width: 60vw;
+  min-width: 360px;
+  text-align: center;
+  margin: 5% auto;
+  background-color: #fff;
 }
