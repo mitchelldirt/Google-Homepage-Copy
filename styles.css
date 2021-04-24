@@ -5,16 +5,26 @@ body {
   font-family: arial, sans-serif;
 }
 
+form {
+  border-radius: 25px;
+}
+
 #top-page {
   margin-top: 47px;
   height: 233px;
   margin-top: 89px;
 }
 
+.grid-container {
+  display: grid;
+}
+
 .container {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .image-example {
@@ -24,3 +34,4 @@ body {
   margin: 5% auto;
   background-color: #fff;
 }
+
