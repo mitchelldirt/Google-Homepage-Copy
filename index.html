@@ -1,14 +1,33 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Home Page (Copy)</title>
-    <link rel="stylesheet" type="text/css" href="styles">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Home Page (Copy)</title>
+  <link rel="stylesheet" type="text/css" href="styles">
 </head>
+
 <body>
+  <div id="lga">
+    <style>
+      #lga {
+        height: 233px;
+        margin-top: 89px
+      }
+
+      @media only screen and (max-height:768px) {
+        #lga {
+          margin-top: 47px
+        }
+      }
+    </style>
+  </div>
   <div>
-      <img src="./Images/googlelogo_color_272x92dp.png" alt="Logo for the Google search engine.">
-  </div>  
+    <img src="./Images/googlelogo_color_272x92dp.png" alt="Logo for the Google search engine." style="padding-top:109px"
+      onload="typeof google==='object'&&google.aft&&google.aft(this)" data-atf="1" data-iml="1575157681669" width="272"
+      height="92">
+  </div>
 </body>
+
 </html>
