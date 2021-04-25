@@ -3,6 +3,13 @@ position: relative;
 bottom: 50px;
 }
 
+@media screen and (max-height: 400px) {
+  header {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
 body {
   background-color: #fff;
   font-size: small;
